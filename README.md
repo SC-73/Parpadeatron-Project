@@ -15,7 +15,6 @@
 ![Funcionamiento de Parpadeatron](./Screens/Assets/sample_parpadeatron.gif)
 
 
-
 ## ¿Por qué es importante?
 Estudios indican que una persona normal parpadea entre 15 y 20 veces por minuto, pero al estar frente a una pantalla, esta cifra baja a solo entre 5 y 3 veces por minuto [[1][article aao]] [[2][article xataka]] (_pero tu y yo sabemos que eso puede ser incluso menos cuando vemos esa buena peli_). 
 Esto provoca, entre otras cosas:
@@ -31,18 +30,37 @@ Pero hay una solución al alcance de todos, la Academia Americana de Oftalmolog�
 - **Interfaz amigable:** Fácil de activar y desactivar según las necesidades del usuario.
 - **Ligero y eficiente:** No interfiere con el rendimiento del sistema.
 
-## Descarga:
+## Descarga y usa
 Puedes descargar la última versión de **Parpadeatron** desde el siguiente enlace (por ahora, solo está disponible para equipos **Windows**):
 
 [![Descargar Parpadeatron](https://img.shields.io/badge/Descargar%20Parpadeatron-v1.0-blue)](https://github.com/SC-73/Parpadeatron-Project/raw/refs/heads/main/dist/Parpadeatron.exe)
 
 O vé a la carpeta "_dist_" de este repositorio y descarga el archivo "_Parpadeatron.exe_".
 
-## Instalación
+## Instalación para usuarios
 1. **Descarga** el archivo ejecutable desde el enlace anterior.
 2. **Ejecuta** el archivo descargado 
 3. **Permite** la ejecución de la aplicación. Antivirus como Windows Defender o Avast pueden evitar su ejecución ya que no viene de una marca conocida, en ese caso, debes seleccionar la opción "_Ejecutar de todas formas_" o añadir una excepción al archivo ejecutable.
 4. **Inicia** la aplicación abriendo el ejecutable y presionando "_Start_".
+
+## Descarga del proyecto
+Para instalar el proyecto, puedes descargar el repositorio en tu máquina local, pero antes de ello, asegúrate de tener instalado lo siguiente:
+
+### Prerrequisitos:
+ + **Sistema operativo:** Windows 10 o superior. 
+ + **Lenguaje de programación:** Python 3.12 o superior. 
+ + **Librerías:**
+    + Tkinter. 
+    + Pillow (o PIL). 
+    + SQLite3. 
+    + PyInstaller. 
++ **Editor de Código:** Usar Visual Studio Code con las extensiones de Python, Pylance y Python Debugger puede ser bastante útil.
+
+## Ejecución
+Una vez tengas todo listo, sólo hay que ejecutar el archivo "_main.py_". 
+
+## Problemas y Sugerencias
+Si reportar algún problema o quieres hacer una sugerencia, abre un nuevo problema, coloca un título conciso y una descripción detallada.
 
 ## Agradecimientos
 
